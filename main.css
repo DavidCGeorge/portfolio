@@ -1,0 +1,484 @@
+/* mobile, max width is 600px*/
+@media only screen and (max-width: 600px) {
+
+    body {
+        /*In my mockup there was a different color for each page, to make things flow better I just chose one. */
+        background-color: #506A74;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+
+    .headerOne {
+        background-color: black;
+        width: 100%;
+        height: 100px;
+        padding: 5px;
+    }
+
+
+    .headerTwo {
+        visibility: hidden;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 2px 100px;
+        text-decoration: none;
+
+    }
+
+    ul {
+        background-color: #6f9c73;
+
+    }
+
+    .container {
+        background-color: #6f9c73;
+    }
+
+    .logo {
+        float: left;
+        position: relative;
+        top: 9px;
+        left: 280px;
+    }
+
+
+    .mobilePhotosHome {
+        float: left;
+        position: relative;
+        top: 20px;
+        left: 150px;
+    }
+
+    .mobileTextHome {
+        float: left;
+        position: relative;
+        top: 30px;
+        width: 70%;
+        left: 130px;
+
+    }
+
+
+    .icons {
+        position: relative;
+        top: 100px;
+        left: 80px;
+    }
+
+    .iconsTwo {
+        position: relative;
+        top: 60px;
+        left: 200px;
+        padding-bottom: 35px;
+    }
+
+
+    .containerTwo {
+        background-color: #6f9c73;
+    }
+
+
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #6f9c73;
+        color: white;
+        padding: 11px 19px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .form {
+        border-radius: 5px;
+        background-color: #506A74;
+        padding: 20px;
+    }
+
+
+    .contact {
+        padding-left: 14px;
+        padding-top: 5px;
+
+    }
+
+
+    .aboutMePhoto {
+        width: 425px;
+        position: relative;
+        top: 15px;
+        left: 100px;
+    }
+
+
+    .aboutText {
+        position: relative;
+        top: 50px;
+        left: 5px;
+        padding-left: 5px;
+    }
+
+    .aboutTextTwo {
+        position: relative;
+        left: 220px;
+    }
+
+    .iconsThree {
+        position: relative;
+        top: 225px;
+        left: 200px;
+        padding-bottom: 5px;
+    }
+    
+  .skip-links{
+    list-style: none;
+  }
+ 
+  .skip-links a{
+    position: absolute;
+    top: -5em;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    padding: .10em 3em;
+    font-weight: bold;
+  }
+
+
+
+
+
+}
+
+
+
+/* Tablet - most of the commnets are applicable to this code as well as it is targetting the same html and in some cases, doing, or made to look, the same */
+
+@media only screen and (min-width: 601px) {
+
+    body {
+        background-color: #506A74;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    li a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 7px 15px;
+        text-decoration: none;
+    }
+
+    ul {
+        background-color: #7faf84;
+
+    }
+
+    .container {
+        background-color: #7faf84;
+    }
+
+    .mobilePhotosHome {
+        visibility: hidden;
+    }
+
+
+    .aboutMePhoto {
+        width: 425px;
+        position: relative;
+        top: 15px;
+        left: 200px;
+    }
+
+
+    .aboutText {
+        position: relative;
+        top: 60px;
+        left: 5px;
+        padding-left: 5px;
+    }
+
+    .aboutTextTwo {
+        position: relative;
+        top: -10px;
+        left: 330px;
+    }
+
+    .headerOne {
+        background-color: black;
+        width: 100%;
+        height: 100px;
+
+    }
+
+    .headerTwo {
+        position: relative;
+        top: 45px;
+        left: 10px;
+
+    }
+
+    .logo {
+        float: right;
+        padding-top: 22px;
+        padding-right: 8px;
+    }
+
+    .iconsThree {
+        position: relative;
+        top: 220px;
+        left: 325px;
+        padding-bottom: 35px;
+    }
+
+    .iconsTwo {
+        position: relative;
+        top: 120px;
+        left: 310px;
+        padding-bottom: 35px;
+    }
+
+    .icons {
+        position: relative;
+        top: 220px;
+        left: 325px;
+        padding-bottom: 35px;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 11px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+        margin-top: 7px;
+        margin-bottom: 15px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #6f9c73;
+        color: white;
+        padding: 11px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .form {
+        border-radius: 6px;
+        background-color: #506A74;
+        padding: 20px;
+    }
+
+    .contact {
+        padding-left: 14px;
+        padding-top: 5px;
+
+    }
+
+    .containerFive {
+        text-align: center;
+    }
+    
+  .skip-links{
+    list-style: none;
+  }
+ 
+  .skip-links a{
+    position: absolute;
+    top: -5em;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    padding: .10em 3em;
+    font-weight: bold;
+  }
+
+
+
+}
+
+/* Web - like the tablet a lot of the code is similar, just different formatting but obviouly targetting the same html. */
+@media only screen and (min-width: 800px) {
+
+    body {
+
+        background-color: #506A74;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    li a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 7px 140px;
+        text-decoration: none;
+    }
+
+    ul {
+        background-color: #7faf84;
+
+    }
+
+    .container {}
+
+    .headerOne {
+        background-color: black;
+        width: 100%;
+        height: 200px;
+
+        padding: 5px;
+    }
+
+
+    .icons {
+        float: left;
+        position: relative;
+        top: 200px;
+        left: 870px;
+
+    }
+
+    .iconsTwo {
+        float: left;
+        position: relative;
+        top: 200px;
+        left: 870px;
+
+    }
+
+    .iconsThree {
+        float: left;
+        position: relative;
+        top: 450px;
+        left: 480px;
+
+    }
+
+    .mobilePhotosHome {
+        visibility: hidden;
+    }
+
+
+    .aboutMePhoto {
+        float: left;
+        position: relative;
+        top: 70px;
+
+
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #6f9c73;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .form {
+        border-radius: 5px;
+        background-color: #506A74;
+        padding: 20px;
+        width: 900px;
+        padding-left: 100px;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .logo {
+       width: 150px;
+       float: right;
+       position: relative;
+       top: 20px
+    }
+    .headerTwo{
+        padding-top: 95px;
+       
+    }
+    .aboutText {
+        position: relative;
+        top: 140px;
+        left: 250px;
+        padding-left: 5px;
+    }
+
+    .aboutTextTwo {
+        float: right;
+        position: relative;
+     top: -50px;
+        left: -1305px;
+    }
+
+
+    .containerFive {
+        text-align: center;
+    }
+    
+  .skip-links{
+    list-style: none;
+  }
+ 
+  .skip-links a{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    font-weight: bold;
+  }
+    
+
+}
